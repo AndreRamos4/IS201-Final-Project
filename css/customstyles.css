@@ -1,0 +1,107 @@
+.header {
+    top: 0px;
+    left: 5px;
+    right: 5px;
+    height: 450px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 36px;
+}
+body {
+    background-color: rgb(185, 185, 185);
+    z-index: 1;
+}
+.headerbg {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+.navfloat {
+    float: left;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.tableau {
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.Leftblock{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #ff0000;
+    background-color: #ff0000;
+}
+.bodytext{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: left;
+    left: 50px;
+}
+.movietitle {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.movieinfo {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 35px;
+}
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.centerimg2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80%;
+}
+.anchor {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+}
+.bodytextbig{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    font-size: 36px;
+    text-align: center;
+    left: 50px;
+}
